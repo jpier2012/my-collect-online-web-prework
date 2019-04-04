@@ -5,7 +5,7 @@ def my_collect array
   new_array = []
   while i < array.length
     yield i
-    
+
     binding.pry
     i += 1
   end
