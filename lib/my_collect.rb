@@ -1,3 +1,5 @@
+require 'pry'
+
 def my_collect array
   i = 0
   new_array = []
@@ -5,6 +7,7 @@ def my_collect array
     yield new_array[i] = array[i]
     i += 1
   end
+  binding.pry
   new_array
 end
 
