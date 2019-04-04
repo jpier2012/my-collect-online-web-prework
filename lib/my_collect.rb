@@ -11,4 +11,4 @@ end
 
 arr = *(1..10)
 
-puts my_collect(array) {|i| i * 10}
+puts my_collect(arr) {|i| i * 10}
