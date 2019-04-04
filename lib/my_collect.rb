@@ -11,6 +11,6 @@ def my_collect array
   new_array
 end
 
-arr = *(1..10)
+arr = [1,2,3,4,5]
 
 puts my_collect(arr) {|i| i * 10}
