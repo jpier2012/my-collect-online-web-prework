@@ -9,7 +9,7 @@ def my_collect array
     binding.pry
     i += 1
   end
-  new_array
+
 end
 
 arr = [1,2,3,4,5]
